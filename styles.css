@@ -16,7 +16,7 @@ h1{
     align-items: center;
     text-align: center;
     color: rgba(244, 255, 247, 0.8);
-    text-shadow: 1px -1px 3px rgba(37, 205, 112, 0.49), -2px 0px 3px rgba(252, 65, 95, 0.5), 0px 1px 3px rgba(135, 181, 248, 0.5);
+    text-shadow: -3px -3px 3px rgba(37, 205, 112, 0.33), 3px 3px 3px rgba(252, 65, 95, 0.33), -3px 3px 3px rgba(135, 181, 248, 0.33);
 }
 
 header{
@@ -37,7 +37,7 @@ header h1{
     border-top: 0.5px solid rgba(244, 255, 247, 0.8);
     border-bottom: 0.5px solid rgba(244, 255, 247, 0.8);
     box-sizing: border-box;
-    box-shadow: -3px 0px 3px rgba(252, 65, 95, 0.5), 1px -1px 3px rgba(37, 205, 112, 0.49), 0px 1px 3px rgba(135, 181, 248, 0.5);
+    box-shadow: -3px 0px 5px 1px rgba(252, 65, 95, 0.33), 1px -1px 5px 1px rgba(37, 205, 112, 0.33), inset 0px 1px 5px 2px rgba(135, 181, 248, 0.33);
 }
 
 .hero-left{
@@ -48,7 +48,7 @@ header h1{
     justify-content: space-evenly;
     border-right: 0.5px solid rgba(244, 255, 247, 0.8);
     box-sizing: border-box;
-    box-shadow: -3px 0px 3px rgba(252, 65, 95, 0.5), 1px -1px 3px rgba(37, 205, 112, 0.49), 0px 1px 3px rgba(135, 181, 248, 0.5);
+    box-shadow: 0px 1px 12px 1px rgb(135 181 248 / 50%), -3px 0px 11px 1px rgb(252 65 95 / 50%), 1px -1px 3px 1px rgb(37 205 112 / 49%);
 }
 
 .hero-video{
@@ -66,8 +66,7 @@ header h1{
     align-items: center;
     border: 0.5px solid rgba(244, 255, 247, 0.8);
     box-sizing: border-box;
-    box-shadow: 0px 1px 3px 1px rgba(135, 181, 248, 0.5);
-    filter: drop-shadow(-3px 0px 3px rgba(252, 65, 95, 0.5)), drop-shadow(1px -1px 3px rgba(37, 205, 112, 0.49));
+    box-shadow: 0px 1px 3px 1px rgba(135, 181, 248, 0.33), -3px 0px 3px 3px rgba(252, 65, 95, 0.33), 1px -1px 3px 1px rgba(37, 205, 112, 0.33);
     border-radius: 7px;
 }
 
