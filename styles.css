@@ -17,6 +17,7 @@ h1{
     text-align: center;
     color: rgba(244, 255, 247, 0.8);
     text-shadow: -3px -3px 3px rgba(37, 205, 112, 0.5), 3px 3px 3px rgba(252, 65, 95, 0.5), -3px 3px 3px rgba(135, 181, 248, 0.5);
+    transition: text-shadow 1s ease-in-out, color 1s ease-in-out;
 }
 
 header{
@@ -67,6 +68,7 @@ header h1{
     border: 0.5px solid rgba(244, 255, 247, 0.8);
     box-sizing: border-box;
     box-shadow: 0px 1px 3px 1px rgba(135, 181, 248, 0.33), -3px 0px 3px 3px rgba(252, 65, 95, 0.33), 1px -1px 3px 1px rgba(37, 205, 112, 0.33);
+    transition: box-shadow 1s ease-in-out, border 1s ease-in-out;
     border-radius: 7px;
 }
 
@@ -74,9 +76,12 @@ header h1{
     border: 1px solid rgba(244, 255, 247);
     box-shadow: none;
     filter: none;
+    transition: 1s ease-in-out;
 }
 
 .button:hover h1{
     color: rgba(244, 255, 247);
     text-shadow: none;
+    box-shadow: none;
+    transition: 1s ease-in-out;
 }
