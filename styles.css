@@ -16,7 +16,7 @@ h1{
     align-items: center;
     text-align: center;
     color: rgba(244, 255, 247, 0.8);
-    text-shadow: -3px -3px 3px rgba(37, 205, 112, 0.33), 3px 3px 3px rgba(252, 65, 95, 0.33), -3px 3px 3px rgba(135, 181, 248, 0.33);
+    text-shadow: -3px -3px 3px rgba(37, 205, 112, 0.5), 3px 3px 3px rgba(252, 65, 95, 0.5), -3px 3px 3px rgba(135, 181, 248, 0.5);
 }
 
 header{
